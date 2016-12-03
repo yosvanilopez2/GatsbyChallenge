@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MapVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MapVC" customModule="GatsbyChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cY-K5-kwe">
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="iSL-lv-w67"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vmY-hy-Bga">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YeQ-AF-xY9">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW5-Hc-VZC">
+                                                <state key="normal" title="Times Square"/>
+                                                <connections>
+                                                    <action selector="goToTimesSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="grZ-vg-xUp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzp-WP-foU">
+                                                <state key="normal" title="Yankee Stadium"/>
+                                                <connections>
+                                                    <action selector="goToYankeeStadium:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26N-LH-5gb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e42-sO-nwi">
+                                                <state key="normal" title="NYC Comedy Club"/>
+                                                <connections>
+                                                    <action selector="goToNYCComedyClub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M98-nL-opO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7uC-DA-nbq">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg0-IM-Dju">
+                                                <state key="normal" title="Madison Square Garden"/>
+                                                <connections>
+                                                    <action selector="goToMSG:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p34-cQ-RVA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LpB-gb-DNB">
+                                                <state key="normal" title="Museum of Modern Art"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOR-PH-MMe">
+                                                <state key="normal" title="Statue of Liberty"/>
+                                                <connections>
+                                                    <action selector="goToStatueofLiberty:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8je-ab-AzV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="viC-4e-lod">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="lIj-fj-L9f"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="viC-4e-lod" firstAttribute="top" secondItem="4cY-K5-kwe" secondAttribute="bottom" constant="16" id="226-2r-AIl"/>
+                            <constraint firstAttribute="trailing" secondItem="4cY-K5-kwe" secondAttribute="trailing" id="CEd-tO-xA0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vmY-hy-Bga" secondAttribute="trailing" id="FLV-5u-flp"/>
+                            <constraint firstItem="vmY-hy-Bga" firstAttribute="top" secondItem="viC-4e-lod" secondAttribute="bottom" constant="40" id="KQd-uR-7zj"/>
+                            <constraint firstItem="viC-4e-lod" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="TwL-uW-pMt"/>
+                            <constraint firstItem="4cY-K5-kwe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dcR-UX-8eI"/>
+                            <constraint firstItem="vmY-hy-Bga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fdX-92-ZQk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="viC-4e-lod" secondAttribute="trailing" constant="24" id="ikM-fX-dVh"/>
+                            <constraint firstItem="4cY-K5-kwe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mWo-aD-Hox"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="viC-4e-lod" id="eSj-b8-w5a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

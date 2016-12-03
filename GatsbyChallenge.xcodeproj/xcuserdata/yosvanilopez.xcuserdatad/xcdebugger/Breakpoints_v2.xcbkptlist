@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/Car.swift"
+            timestampString = "502280340.361478"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502427111.200986"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "MapVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.locationManager.getter : __ObjC.CLLocationManager"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.867824"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GatsbyChallenge.MapVC&gt;"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.874908"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "getPlaceMarkForLocation(address:complete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.centerMapOnAddress (address : Swift.String) -&gt; ()"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502363574.304563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "239">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.(centerMapOnAddress (address : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502363574.311077"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "781">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "calculateSegmentDirections(source:destination:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "calculateSegmentDirections(source:destination:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "calculateSegmentDirections(source:destination:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502427111.200986"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "MapVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.carUpdater.getter : __ObjC.Timer"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.949093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.carUpdater.setter : __ObjC.Timer"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.952216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GatsbyChallenge.MapVC"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.956015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "298">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GatsbyChallenge.MapVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GatsbyChallenge.MapVC&gt;"
+                  moduleName = "GatsbyChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yosvanilopez/Desktop/Free%20Time%20Work%20/GatsbyChallenge/GatsbyChallenge/MapVC.swift"
+                  timestampString = "502425732.958509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "mapView(_:viewFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "goToNYCComedyClub(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "MapVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GatsbyChallenge/MapVC.swift"
+            timestampString = "502431753.442083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "calculateSegmentDirections(source:destination:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

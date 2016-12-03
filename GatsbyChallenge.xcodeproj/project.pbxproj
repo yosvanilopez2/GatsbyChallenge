@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288E83241DEEBB72001BB607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E83231DEEBB72001BB607 /* AppDelegate.swift */; };
+		288E83261DEEBB72001BB607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E83251DEEBB72001BB607 /* ViewController.swift */; };
+		288E83291DEEBB72001BB607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288E83271DEEBB72001BB607 /* Main.storyboard */; };
+		288E832C1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 288E832A1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodeld */; };
+		288E832E1DEEBB72001BB607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E832D1DEEBB72001BB607 /* Assets.xcassets */; };
+		288E83311DEEBB72001BB607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288E832F1DEEBB72001BB607 /* LaunchScreen.storyboard */; };
+		288E833C1DEEBB73001BB607 /* GatsbyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E833B1DEEBB73001BB607 /* GatsbyChallengeTests.swift */; };
+		288E83471DEEBB73001BB607 /* GatsbyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E83461DEEBB73001BB607 /* GatsbyChallengeUITests.swift */; };
+		288E83551DEEBD62001BB607 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E83541DEEBD62001BB607 /* MapVC.swift */; };
+		288E83591DEEC157001BB607 /* Bibliography in Resources */ = {isa = PBXBuildFile; fileRef = 288E83581DEEC157001BB607 /* Bibliography */; };
+		288E835B1DEEC4F7001BB607 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E835A1DEEC4F7001BB607 /* Car.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288E83381DEEBB73001BB607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288E83181DEEBB72001BB607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288E831F1DEEBB72001BB607;
+			remoteInfo = GatsbyChallenge;
+		};
+		288E83431DEEBB73001BB607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288E83181DEEBB72001BB607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288E831F1DEEBB72001BB607;
+			remoteInfo = GatsbyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288E83201DEEBB72001BB607 /* GatsbyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatsbyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288E83231DEEBB72001BB607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		288E83251DEEBB72001BB607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		288E83281DEEBB72001BB607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288E832B1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GatsbyChallenge.xcdatamodel; sourceTree = "<group>"; };
+		288E832D1DEEBB72001BB607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288E83301DEEBB72001BB607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288E83321DEEBB72001BB607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288E83371DEEBB73001BB607 /* GatsbyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatsbyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288E833B1DEEBB73001BB607 /* GatsbyChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatsbyChallengeTests.swift; sourceTree = "<group>"; };
+		288E833D1DEEBB73001BB607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288E83421DEEBB73001BB607 /* GatsbyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatsbyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288E83461DEEBB73001BB607 /* GatsbyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatsbyChallengeUITests.swift; sourceTree = "<group>"; };
+		288E83481DEEBB73001BB607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288E83541DEEBD62001BB607 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		288E83581DEEC157001BB607 /* Bibliography */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bibliography; sourceTree = "<group>"; };
+		288E835A1DEEC4F7001BB607 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288E831D1DEEBB72001BB607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E83341DEEBB73001BB607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E833F1DEEBB73001BB607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288E83171DEEBB72001BB607 = {
+			isa = PBXGroup;
+			children = (
+				288E83221DEEBB72001BB607 /* GatsbyChallenge */,
+				288E833A1DEEBB73001BB607 /* GatsbyChallengeTests */,
+				288E83451DEEBB73001BB607 /* GatsbyChallengeUITests */,
+				288E83211DEEBB72001BB607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288E83211DEEBB72001BB607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288E83201DEEBB72001BB607 /* GatsbyChallenge.app */,
+				288E83371DEEBB73001BB607 /* GatsbyChallengeTests.xctest */,
+				288E83421DEEBB73001BB607 /* GatsbyChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288E83221DEEBB72001BB607 /* GatsbyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				288E83231DEEBB72001BB607 /* AppDelegate.swift */,
+				288E83271DEEBB72001BB607 /* Main.storyboard */,
+				288E835A1DEEC4F7001BB607 /* Car.swift */,
+				288E83561DEEBD6A001BB607 /* Controller */,
+				288E83571DEEBF42001BB607 /* Material */,
+				288E832D1DEEBB72001BB607 /* Assets.xcassets */,
+				288E832F1DEEBB72001BB607 /* LaunchScreen.storyboard */,
+				288E83321DEEBB72001BB607 /* Info.plist */,
+				288E832A1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodeld */,
+				288E83581DEEC157001BB607 /* Bibliography */,
+			);
+			path = GatsbyChallenge;
+			sourceTree = "<group>";
+		};
+		288E833A1DEEBB73001BB607 /* GatsbyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				288E833B1DEEBB73001BB607 /* GatsbyChallengeTests.swift */,
+				288E833D1DEEBB73001BB607 /* Info.plist */,
+			);
+			path = GatsbyChallengeTests;
+			sourceTree = "<group>";
+		};
+		288E83451DEEBB73001BB607 /* GatsbyChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288E83461DEEBB73001BB607 /* GatsbyChallengeUITests.swift */,
+				288E83481DEEBB73001BB607 /* Info.plist */,
+			);
+			path = GatsbyChallengeUITests;
+			sourceTree = "<group>";
+		};
+		288E83561DEEBD6A001BB607 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				288E83541DEEBD62001BB607 /* MapVC.swift */,
+				288E83251DEEBB72001BB607 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		288E83571DEEBF42001BB607 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288E831F1DEEBB72001BB607 /* GatsbyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288E834B1DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallenge" */;
+			buildPhases = (
+				288E831C1DEEBB72001BB607 /* Sources */,
+				288E831D1DEEBB72001BB607 /* Frameworks */,
+				288E831E1DEEBB72001BB607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GatsbyChallenge;
+			productName = GatsbyChallenge;
+			productReference = 288E83201DEEBB72001BB607 /* GatsbyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288E83361DEEBB73001BB607 /* GatsbyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288E834E1DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallengeTests" */;
+			buildPhases = (
+				288E83331DEEBB73001BB607 /* Sources */,
+				288E83341DEEBB73001BB607 /* Frameworks */,
+				288E83351DEEBB73001BB607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288E83391DEEBB73001BB607 /* PBXTargetDependency */,
+			);
+			name = GatsbyChallengeTests;
+			productName = GatsbyChallengeTests;
+			productReference = 288E83371DEEBB73001BB607 /* GatsbyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		288E83411DEEBB73001BB607 /* GatsbyChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288E83511DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallengeUITests" */;
+			buildPhases = (
+				288E833E1DEEBB73001BB607 /* Sources */,
+				288E833F1DEEBB73001BB607 /* Frameworks */,
+				288E83401DEEBB73001BB607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288E83441DEEBB73001BB607 /* PBXTargetDependency */,
+			);
+			name = GatsbyChallengeUITests;
+			productName = GatsbyChallengeUITests;
+			productReference = 288E83421DEEBB73001BB607 /* GatsbyChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288E83181DEEBB72001BB607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yosvani Lopez";
+				TargetAttributes = {
+					288E831F1DEEBB72001BB607 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DPY5934975;
+						ProvisioningStyle = Automatic;
+					};
+					288E83361DEEBB73001BB607 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DPY5934975;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288E831F1DEEBB72001BB607;
+					};
+					288E83411DEEBB73001BB607 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DPY5934975;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288E831F1DEEBB72001BB607;
+					};
+				};
+			};
+			buildConfigurationList = 288E831B1DEEBB72001BB607 /* Build configuration list for PBXProject "GatsbyChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288E83171DEEBB72001BB607;
+			productRefGroup = 288E83211DEEBB72001BB607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288E831F1DEEBB72001BB607 /* GatsbyChallenge */,
+				288E83361DEEBB73001BB607 /* GatsbyChallengeTests */,
+				288E83411DEEBB73001BB607 /* GatsbyChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288E831E1DEEBB72001BB607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E83591DEEC157001BB607 /* Bibliography in Resources */,
+				288E83311DEEBB72001BB607 /* LaunchScreen.storyboard in Resources */,
+				288E832E1DEEBB72001BB607 /* Assets.xcassets in Resources */,
+				288E83291DEEBB72001BB607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E83351DEEBB73001BB607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E83401DEEBB73001BB607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288E831C1DEEBB72001BB607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E83261DEEBB72001BB607 /* ViewController.swift in Sources */,
+				288E83551DEEBD62001BB607 /* MapVC.swift in Sources */,
+				288E835B1DEEC4F7001BB607 /* Car.swift in Sources */,
+				288E83241DEEBB72001BB607 /* AppDelegate.swift in Sources */,
+				288E832C1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E83331DEEBB73001BB607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E833C1DEEBB73001BB607 /* GatsbyChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288E833E1DEEBB73001BB607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E83471DEEBB73001BB607 /* GatsbyChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288E83391DEEBB73001BB607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288E831F1DEEBB72001BB607 /* GatsbyChallenge */;
+			targetProxy = 288E83381DEEBB73001BB607 /* PBXContainerItemProxy */;
+		};
+		288E83441DEEBB73001BB607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288E831F1DEEBB72001BB607 /* GatsbyChallenge */;
+			targetProxy = 288E83431DEEBB73001BB607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288E83271DEEBB72001BB607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288E83281DEEBB72001BB607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288E832F1DEEBB72001BB607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288E83301DEEBB72001BB607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288E83491DEEBB73001BB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288E834A1DEEBB73001BB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288E834C1DEEBB73001BB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		288E834D1DEEBB73001BB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		288E834F1DEEBB73001BB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GatsbyChallenge.app/GatsbyChallenge";
+			};
+			name = Debug;
+		};
+		288E83501DEEBB73001BB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GatsbyChallenge.app/GatsbyChallenge";
+			};
+			name = Release;
+		};
+		288E83521DEEBB73001BB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GatsbyChallenge;
+			};
+			name = Debug;
+		};
+		288E83531DEEBB73001BB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DPY5934975;
+				INFOPLIST_FILE = GatsbyChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yosvani.GatsbyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GatsbyChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288E831B1DEEBB72001BB607 /* Build configuration list for PBXProject "GatsbyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288E83491DEEBB73001BB607 /* Debug */,
+				288E834A1DEEBB73001BB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288E834B1DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288E834C1DEEBB73001BB607 /* Debug */,
+				288E834D1DEEBB73001BB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288E834E1DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288E834F1DEEBB73001BB607 /* Debug */,
+				288E83501DEEBB73001BB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288E83511DEEBB73001BB607 /* Build configuration list for PBXNativeTarget "GatsbyChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288E83521DEEBB73001BB607 /* Debug */,
+				288E83531DEEBB73001BB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		288E832A1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				288E832B1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodel */,
+			);
+			currentVersion = 288E832B1DEEBB72001BB607 /* GatsbyChallenge.xcdatamodel */;
+			path = GatsbyChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 288E83181DEEBB72001BB607 /* Project object */;
+}
