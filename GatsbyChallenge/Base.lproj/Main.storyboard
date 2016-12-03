@@ -29,6 +29,11 @@
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YeQ-AF-xY9">
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Favorite Places" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzc-fT-UF3" userLabel="My Favorite Places">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW5-Hc-VZC">
                                                 <state key="normal" title="Times Square"/>
                                                 <connections>
@@ -47,10 +52,6 @@
                                                     <action selector="goToNYCComedyClub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M98-nL-opO"/>
                                                 </connections>
                                             </button>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7uC-DA-nbq">
-                                        <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg0-IM-Dju">
                                                 <state key="normal" title="Madison Square Garden"/>
                                                 <connections>
@@ -59,6 +60,9 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LpB-gb-DNB">
                                                 <state key="normal" title="Museum of Modern Art"/>
+                                                <connections>
+                                                    <action selector="goToMuseumofModernArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZZU-na-C3P"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOR-PH-MMe">
                                                 <state key="normal" title="Statue of Liberty"/>
@@ -72,7 +76,7 @@
                             </stackView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="viC-4e-lod">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="350" id="lIj-fj-L9f"/>
+                                    <constraint firstAttribute="height" constant="300" id="lIj-fj-L9f"/>
                                 </constraints>
                             </mapView>
                         </subviews>

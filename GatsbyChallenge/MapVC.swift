@@ -47,6 +47,14 @@ class MapVC: UIViewController, MKMapViewDelegate {
             carlocation = TimeSquare
         }
     }
+    @IBAction func goToMuseumofModernArt(_ sender: AnyObject) {
+            if stopped {
+                stopped = false
+                moveCar(carlocation: carlocation, destination: MuseumofModernArt)
+                carlocation = MuseumofModernArt
+            }
+    }
+
     @IBAction func goToMSG(_ sender: AnyObject) {
         if stopped {
             stopped = false
